@@ -22,7 +22,8 @@ export default function RootLayout({
       <body>
         <header>
           <div className="fixed top-0 z-20 w-full">
-            <div className="border-sold border-b-[1px] border-b-gray-600 border-opacity-100"></div>
+            <div className="border border-red-600 border-opacity-100"></div>
+            this top red bar is from root layout
           </div>
         </header>
         <div
